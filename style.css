@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+
+}
+#bgimg{
+    margin:0px;
+    overflow:hidden;
+     height:100vh;
+    
+   
+}
+#bgimg img{
+    transform:scale(1.1);
+    animation:tran 10s infinite;
+}
+#chanti{
+     position:fixed; 
+    border : 3px solid rgb(63, 221, 20);
+    width:450px;
+    height:450px;
+    top:50px;
+    background-image:url(images/chiranjeevi450.jpg);
+    border-radius:200px;
+    box-shadow:2px 1px 4px white;
+    
+    
+    animation: nam 10s infinite;
+    transform:translate(70px)
+    
+
+}
+@keyframes nam{
+    50%{
+        background-image:url(images/ramcharan450.jpg);
+        transform:translateX(200%) rotate(360deg) scale(0.70)
+      
+    
+    }
+}
+@keyframes tran{
+    20%{
+        transform:scale(1.2);
+    }
+}
